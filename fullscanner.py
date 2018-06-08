@@ -1,7 +1,7 @@
 #!/usr/bin/env python3 
 import socket,sys,os,argparse
 from multiprocessing import Pool  
-from progress.bar import Bar #pip install python3-progress
+from progress.bar import Bar #pip3 install progress
 
 open_ports = []
 progress_bar = Bar('[-] Progress:', max=65535)
